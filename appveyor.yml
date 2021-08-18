@@ -4,8 +4,7 @@ branches:
   only:
     - master # ветка git
 cache: node_modules # кеширование
-rules:
-  import/extensions: 0
+
 
 install:
   - npm install # команда установки зависимостей
