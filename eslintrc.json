@@ -16,5 +16,6 @@
         "no-restricted-syntax": [
             "error", "LabeledStatement", "WithStatement"
         ]
-    }
+    },
+    "parser": "babel-eslint"
 }
