@@ -13,9 +13,13 @@
         "sourceType": "module"
     },
     "rules": {
+        
         "no-restricted-syntax": [
             "error", "LabeledStatement", "WithStatement"
-        ]
+        ],
+   
+        "import/extensions": 0
+
     },
     "parser": "babel-eslint"
 }
