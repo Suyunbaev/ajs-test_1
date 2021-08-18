@@ -4,8 +4,12 @@ branches:
   only:
     - master # ветка git
 cache: node_modules # кеширование
+rules:
+  import/extensions: 0
+
 install:
   - npm install # команда установки зависимостей
 build: off
 test_script:
   - npm run lint && npm test # скрипт сборки
+  
